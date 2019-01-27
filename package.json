@@ -1,8 +1,12 @@
 {
   "name": "gatsby-gallery",
-  "version": "0.0.3",
-  "description": "",
+  "version": "1.0.0",
+  "description": "Gallery component for gatsby",
   "main": "build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gobeli/gatsby-gallery.git"
+  },
   "scripts": {
     "start": "webpack --watch",
     "build": "webpack"
@@ -13,7 +17,7 @@
       "@babel/react"
     ]
   },
-  "author": "",
+  "author": "tienou",
   "license": "ISC",
   "peerDependencies": {
     "gatsby-image": "^2.0.0",
